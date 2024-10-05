@@ -47,6 +47,16 @@
             "user_editable": true,
             "rules": "required|string|max:32",
             "field_type": "text"
+        },
+        {
+            "name": "Voice",
+            "description": "The port used for Voice",
+            "env_variable": "voice_port",
+            "default_value": "RANDOM_PORT",
+            "user_viewable": true,
+            "user_editable": false,
+            "rules": "required|integer|max:5",
+            "field_type": "integer"
         }
     ]
 }
